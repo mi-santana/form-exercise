@@ -4,7 +4,7 @@ Exercício de validação de formulário da <a target="_blank" href="https://cub
 
 ### O que foi acrescentado:
 
-- [x] Responsividade com o uso de media query
+- [x] Responsividade com o uso do media query
 - [x] Campos de digitação interativos
 
 ### Ferramentas utilizadas:
