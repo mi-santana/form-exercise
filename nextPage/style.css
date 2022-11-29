@@ -1,0 +1,31 @@
+h2 {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.radio-area div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.radio-area label {
+    margin: 0 6px;
+}
+
+.checkbox-area div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.checkbox-area label {
+    margin: 0 6px;
+}
+
+input[type='password'] {
+    height: 40px;
+    padding-left: 10px;
+}

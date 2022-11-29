@@ -1,0 +1,12 @@
+input {
+    height: 40px;
+    padding-left: 10px;
+}
+
+select {
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #808080;
+    font-size: 0.8rem;
+    outline: none;
+}

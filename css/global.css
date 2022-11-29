@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+h1 {
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1::after {
+    content: " ";
+    display: block;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-top: 3px solid transparent;
+    background: none;
+    border-image: linear-gradient(to left, #2C54A8, #9436A4, #E74C8B);
+    border-image-slice: 1;
+}
+
+main {
+    display: flex;
+}
+
+img {
+    width: 350px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.responsive-img {
+    display: none;
+    background-image: url(../assets/computer-image-responsive.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 150px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    min-height: 450px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ffffff;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    border: 1px solid grey;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 0.8rem;
+}
+
+button {
+    all: unset;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left, #2C54A8, #9436A4, #E74C8B);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.error {
+    border: 2px solid #ff0000;
+}
+
+.success {
+    border: 2px solid #0dc50d;
+}
+
+strong {
+    padding-top: 2px;
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #ff0000;
+}
+
+form i {
+    position: absolute;
+}
+
+.uis {
+    min-width: 40px;
+    margin: 32px 0px 0px 280px;
+}
+
+.hide {
+    display: none;
+}
+
+.show-error {
+    display: block;
+    color: #ff0000;
+}
+
+.show-success {
+    display: block;
+    color: #0dc50d;
+}

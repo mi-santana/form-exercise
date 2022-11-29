@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../nextPage/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inscrição Vestibular</h1>
+        <main>
+            <div class="computer-image">
+                <img src="../assets/computer-image.jpg" alt="">
+            </div>
+            <div class="responsive-img"></div>
+            <form>
+                <div class="radio-area">
+                    <h2>Em qual período deseja realizar a prova?</h2>
+                    <div>
+                        <input type="radio" name="period" id="morning" checked>
+                        <label for="morning">Manhã</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="period" id="afternoon">
+                        <label for="afternoon">Tarde</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="period" id="night">
+                        <label for="night">Noite</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-area">
+                    <h2>Em quais cursos você tem interesse?</h2>
+                    <div>
+                        <input type="checkbox" id="engenharia-de-software">
+                        <label for="engenharia-de-software">Engenharia de Software</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="ciencia-da-computacao">
+                        <label for="ciencia-da-computacao">Ciência da Computação</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="analise-de-sistemas">
+                        <label for="analise-de-sistemas">Análise e Desenvolvimento de Sistemas</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="marketing">
+                        <label for="marketing">Marketing</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="password">Senha de Recuperação</label>
+                    <input onkeyup="typingInputPassword()" minlength="8" maxlength="16" type="password" name="password"
+                        id="password" placeholder="Digite sua senha de recuperação">
+                    <i class="uis uis-exclamation-triangle hide"></i>
+                    <i class="uis uis-check-circle hide"></i>
+                    <strong></strong>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script text="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

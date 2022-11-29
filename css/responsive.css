@@ -1,0 +1,49 @@
+@media (max-width: 720px) {
+    main {
+        display: block;
+    }
+
+    img {
+        display: none;
+    }
+
+    .responsive-img {
+        display: block;
+        background-image: url(../assets/computer-image-responsive.jpg);
+        background-size: cover;
+        width: 100%;
+        min-height: 150px;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    form {
+        width: 300px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+
+    }
+
+    .uis {
+        margin: 32px 0px 0px 230px;
+    }
+}
+
+@media (max-width: 280px) {
+    .container {
+        min-width: 260px;
+        width: 90%;
+    }
+
+    form {
+        min-width: 260px;
+        width: 90%;
+    }
+
+    .uis {
+        margin: 32px 0px 0px 190px;
+    }
+}

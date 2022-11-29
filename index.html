@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inscrição Vestibular</h1>
+        <main>
+            <div class="computer-image">
+                <img src="./assets/computer-image.jpg" alt="">
+            </div>
+            <div class="responsive-img"></div>
+            <form>
+                <div>
+                    <label for="name">Informe seu nome</label>
+                    <input onkeyup="typingInputName()" type="text" name="name" id="name"
+                        placeholder="Ex.: João da Silva">
+                    <i class="uis uis-exclamation-triangle hide"></i>
+                    <i class="uis uis-check-circle hide"></i>
+                    <strong></strong>
+                </div>
+                <div>
+                    <label for="email">Informe seu e-mail</label>
+                    <input onkeyup="typingInputEmail()" type="email" name="email" id="email"
+                        placeholder="email@email.com">
+                    <i class="uis uis-exclamation-triangle hide"></i>
+                    <i class="uis uis-check-circle hide"></i>
+                    <strong></strong>
+                </div>
+                <div>
+                    <label for="birthday">Informe a data nascimento</label>
+                    <input onkeyup="typingInputBirthday()" type="number" name="birthday" id="birthday"
+                        placeholder="Ex.: 1992">
+                    <i class="uis uis-exclamation-triangle hide"></i>
+                    <i class="uis uis-check-circle hide"></i>
+                    <strong></strong>
+                </div>
+                <div>
+                    <label for="state">Selecione seu local de prova</label>
+                    <select onchange="checkInputSelect()" name="state" id="state">
+                        <option value="empty">Selecione uma opção</option>
+                        <option value="camacari">Camaçari</option>
+                        <option value="feiradesantana">Feira de Santana</option>
+                        <option value="salvador">Salvador</option>
+                    </select>
+                    <strong></strong>
+                </div>
+                <div>
+                    <button type="button">Próximo Passo</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
