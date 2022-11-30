@@ -93,6 +93,15 @@ button.addEventListener('click', (event) => {
         return;
     }
 
+    if (form.birthday.value < 1800) {
+        form.birthday.classList.add('error');
+        iconError[2].classList.add('show-error');
+        strong[2].textContent = 'O ano de nascimento não é válido';
+        form.birthday.classList.remove('success');
+        iconSuccess[2].classList.remove('show-success');
+        return;
+    }
+
     const age = new Date().getFullYear() - form.birthday.value;
 
     if (age < 18) {
@@ -100,7 +109,7 @@ button.addEventListener('click', (event) => {
         iconError[2].classList.add('show-error');
         form.birthday.classList.remove('success');
         iconSuccess[2].classList.remove('show-success');
-        alert('Você precisa ser maior de 18 anos para continuar.');
+        alert('Você precisa 17 anos ou mais para continuar.');
         return;
     }
 
