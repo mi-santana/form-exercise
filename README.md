@@ -4,7 +4,7 @@ Exercício de validação de formulário da <a target="_blank" href="https://cub
 
 | O que foi acrescentado: | 
 | ------ |
-| ✅ Responsividade com o uso do media query </br> | `HTML` |
+| ✅ Responsividade com o uso do media query </br> |
 | ✅ Campos de digitação interativos |
 
 #### 👉🏼 <a target="_blank" href="https://form-exercise-bymisantana.netlify.app/">**VISUALIZE O PROJETO**</a>
