@@ -2,6 +2,9 @@
 
 Exercício de validação de formulário da <a target="_blank" href="https://cubos.academy/">**Cubos Academy**</a>. O conteúdo não foi modificado, mas a estilização e as funcionalidades são autorais. Nesse projeto, a manipulação da DOM foi muito trabalhada.
 
+O projeto foi criado para coletar informações dos usuários com a finalidade de realizar uma inscrição fictícia.
+
+
 | O que foi acrescentado: | 
 | ------ |
 | ✅ Responsividade com o uso do media query </br> |
